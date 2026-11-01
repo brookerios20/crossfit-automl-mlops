@@ -1,0 +1,7 @@
+| run          | model                                                | algorithm                     |   cv_rmse |   test_rmse |   test_mae |   test_r2 |   fit_seconds |   predict_ms_per_row |   search_seconds |
+|:-------------|:-----------------------------------------------------|:------------------------------|----------:|------------:|-----------:|----------:|--------------:|---------------------:|-----------------:|
+| baseline_all | assignment2_v2_hp_a                                  | HistGradientBoostingRegressor |     140.7 |       141.3 |      108.1 |    0.7414 |        0.139  |            0.0009045 |            nan   |
+| flaml_all    | xgboost                                              | xgboost                       |     139.1 |       140.2 |      106.9 |    0.7457 |        2.926  |            0.002499  |            302.4 |
+| flaml_top3   | xgb_limitdepth                                       | xgb_limitdepth                |     167.2 |       167.2 |      129.8 |    0.6379 |        0.2317 |            0.0002588 |            300.2 |
+| h2o_all      | StackedEnsemble_AllModels_1_AutoML_1_20261031_182303 | StackedEnsemble               |     139.4 |       140   |      107.1 |    0.7463 |        1.537  |            0.02079   |            327.4 |
+| h2o_top3     | StackedEnsemble_AllModels_1_AutoML_2_20261031_182848 | StackedEnsemble               |     174.7 |       176.1 |      137.9 |    0.5984 |        1.116  |            0.009373  |            245.1 |

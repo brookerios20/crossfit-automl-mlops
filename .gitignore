@@ -1,0 +1,21 @@
+# Raw data (download separately, see README)
+data/*.csv
+
+# MLflow tracking store and artifacts
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Fitted models (large; rebuilt by the pipeline)
+results/models/
+
+# FLAML and H2O logs
+results/*_search.log
+h2o_*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store

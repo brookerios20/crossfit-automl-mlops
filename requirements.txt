@@ -1,0 +1,11 @@
+flaml[automl]>=2.3
+h2o>=3.46
+mlflow>=3.0
+prefect>=3.0
+scikit-learn>=1.4
+lightgbm>=4.0
+xgboost>=2.0
+pandas>=2.1
+numpy>=1.26
+matplotlib>=3.8
+tabulate>=0.9

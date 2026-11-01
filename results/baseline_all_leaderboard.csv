@@ -1,0 +1,2 @@
+model,algorithm,cv_rmse,cv_mae,fit_seconds,predict_ms_per_row
+assignment2_v2_hp_a,HistGradientBoostingRegressor,140.73016478092194,107.96694262214301,0.13897550001274794,0.0009044574152515272

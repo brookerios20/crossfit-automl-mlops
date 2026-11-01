@@ -1,0 +1,35 @@
+{
+  "run": "flaml_top3",
+  "best_model": "xgb_limitdepth",
+  "best_config": {
+    "n_estimators": 390,
+    "max_depth": 3,
+    "min_child_weight": 0.3233978718927568,
+    "learning_rate": 0.05425896467807926,
+    "subsample": 1.0,
+    "colsample_bylevel": 0.796073939525558,
+    "colsample_bytree": 0.9733825394476897,
+    "reg_alpha": 0.001012585698879378,
+    "reg_lambda": 0.02281915144308936
+  },
+  "best_cv_rmse": 167.23646485177363,
+  "best_iteration": 123,
+  "time_to_find_best_model": 95.91226816177368,
+  "search_seconds": 300.1506044160342,
+  "time_budget": 300,
+  "test": {
+    "rmse": 167.24503278894784,
+    "mae": 129.76194071182556,
+    "r2": 0.637929251609054
+  },
+  "features": [
+    "gender",
+    "bmi",
+    "age"
+  ],
+  "top_features": [
+    "gender",
+    "bmi",
+    "age"
+  ]
+}

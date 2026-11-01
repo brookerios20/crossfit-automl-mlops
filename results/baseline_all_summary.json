@@ -1,0 +1,13 @@
+{
+  "run": "baseline_all",
+  "best_model": "assignment2_v2_hp_a",
+  "best_cv_rmse": 140.73016478092194,
+  "test": {
+    "rmse": 141.3495767473709,
+    "mae": 108.08469583888518,
+    "r2": 0.7413717218390921
+  },
+  "n_features": 34,
+  "n_train": 24046,
+  "n_test": 5969
+}

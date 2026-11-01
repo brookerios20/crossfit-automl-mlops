@@ -1,0 +1,24 @@
+| model                                                   | algorithm       |   cv_rmse |   cv_mae |   fit_seconds |   predict_ms_per_row |
+|:--------------------------------------------------------|:----------------|----------:|---------:|--------------:|---------------------:|
+| StackedEnsemble_AllModels_1_AutoML_2_20261031_182848    | StackedEnsemble |     174.7 |    136.6 |         1.116 |             0.009373 |
+| StackedEnsemble_BestOfFamily_1_AutoML_2_20261031_182848 | StackedEnsemble |     174.8 |    136.7 |         0.966 |             0.006062 |
+| GBM_2_AutoML_2_20261031_182848                          | GBM             |     174.9 |    136.8 |         0.108 |             0.004717 |
+| GBM_5_AutoML_2_20261031_182848                          | GBM             |     175   |    136.8 |         0.101 |             0.004483 |
+| XGBoost_grid_1_AutoML_2_20261031_182848_model_2         | XGBoost         |     175.1 |    136.9 |         0.305 |             0.00052  |
+| GBM_grid_1_AutoML_2_20261031_182848_model_1             | GBM             |     175.1 |    137   |         0.107 |             0.004782 |
+| XGBoost_3_AutoML_2_20261031_182848                      | XGBoost         |     175.1 |    136.8 |         0.171 |             0.000682 |
+| GBM_1_AutoML_2_20261031_182848                          | GBM             |     175.1 |    137   |         0.167 |             0.006176 |
+| GBM_3_AutoML_2_20261031_182848                          | GBM             |     175.2 |    136.9 |         0.115 |             0.00661  |
+| DRF_1_AutoML_2_20261031_182848                          | DRF             |     175.5 |    137.5 |         0.133 |             0.002815 |
+| GBM_4_AutoML_2_20261031_182848                          | GBM             |     175.6 |    137.3 |         0.138 |             0.004997 |
+| GBM_grid_1_AutoML_2_20261031_182848_model_2             | GBM             |     176.9 |    138.5 |         0.16  |             0.006715 |
+| XGBoost_grid_1_AutoML_2_20261031_182848_model_1         | XGBoost         |     177.9 |    139   |         0.493 |             0.000923 |
+| XGBoost_2_AutoML_2_20261031_182848                      | XGBoost         |     178.4 |    139.3 |         0.24  |             0.001032 |
+| DeepLearning_grid_2_AutoML_2_20261031_182848_model_1    | DeepLearning    |     178.6 |    139.7 |        15.91  |             0.001536 |
+| XGBoost_1_AutoML_2_20261031_182848                      | XGBoost         |     178.8 |    139.7 |         0.379 |             0.001671 |
+| XGBoost_grid_1_AutoML_2_20261031_182848_model_3         | XGBoost         |     179.6 |    140.3 |         0.416 |             0.00161  |
+| DeepLearning_grid_1_AutoML_2_20261031_182848_model_1    | DeepLearning    |     180.6 |    141.6 |        30.41  |             0.000904 |
+| DeepLearning_grid_3_AutoML_2_20261031_182848_model_1    | DeepLearning    |     181.8 |    141.8 |        14.2   |             0.002347 |
+| GLM_1_AutoML_2_20261031_182848                          | GLM             |     183.3 |    143.6 |         0.045 |             0.000792 |
+| DeepLearning_1_AutoML_2_20261031_182848                 | DeepLearning    |     187.4 |    147.4 |         0.413 |             0.004114 |
+| XRT_1_AutoML_2_20261031_182848                          | DRF             |     189.6 |    149.8 |         0.149 |             0.003244 |

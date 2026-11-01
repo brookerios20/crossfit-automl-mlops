@@ -1,0 +1,26 @@
+{
+  "run": "h2o_top3",
+  "best_model": "StackedEnsemble_AllModels_1_AutoML_2_20261031_182848",
+  "best_algorithm": "StackedEnsemble",
+  "best_cv_rmse": 174.65057358614206,
+  "search_seconds": 245.0747166670044,
+  "max_models": 20,
+  "n_models": 22,
+  "test": {
+    "rmse": 176.1298859149644,
+    "mae": 137.88071690300708,
+    "r2": 0.5984375536979195,
+    "h2o_rmse": 176.12988591496435
+  },
+  "features": [
+    "gender",
+    "weight",
+    "bmi"
+  ],
+  "importance_model": "GBM_2_AutoML_2_20261031_182848",
+  "top_features": [
+    "gender",
+    "weight",
+    "bmi"
+  ]
+}
