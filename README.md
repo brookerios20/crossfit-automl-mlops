@@ -2,7 +2,9 @@
 
 This repository runs AutoML on the CrossFit Games athletes dataset (`athletes.csv`) to predict each athlete's `total_lift`, the sum of their clean and jerk, snatch, deadlift, and back squat maxes. It runs FLAML inside a Prefect and MLflow pipeline, repeats the search with H2O AutoML, and compares both against the hand-built model from Assignment 2 ([crossfit-feature-store-mlops-pipeline](https://github.com/brookerios20/crossfit-feature-store-mlops-pipeline)).
 
-Assignment 3 for ADSP 32021 Machine Learning Operations. The answers to each question are in [REPORT.md](REPORT.md).
+The answers to each assignment question are in [REPORT.md](REPORT.md).
+
+*ADSP 32021 MLOps and Inference Engineering, University of Chicago M.S. Applied Data Science*
 
 ## Goals
 
